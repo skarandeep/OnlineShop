@@ -10,9 +10,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.androidtest.onlineshop.Model.Category
 import com.androidtest.onlineshop.R
+import com.androidtest.onlineshop.Services.DataService.categories
 
 class CategoryAdapter (val context: Context, val categories: List<Category>): BaseAdapter() {
-
+// Unit means NOTHING
     override fun getCount(): Int {
         return categories.count()
     }
